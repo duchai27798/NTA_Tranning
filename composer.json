@@ -1,0 +1,15 @@
+{
+    "name": "smay/phpmvc-framework",
+    "authors": [
+        {
+            "name": "hainguyen",
+            "email": "hainguyen27798@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
