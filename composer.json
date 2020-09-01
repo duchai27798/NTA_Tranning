@@ -8,8 +8,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "app\\": "./"
+            "app\\": "src/"
         }
+    },
+    "scripts": {
+        "fix-cs": ["prettier"],
+        "start-server": ["php -S localhost:8080 -t src/"]
     },
     "require": {}
 }
